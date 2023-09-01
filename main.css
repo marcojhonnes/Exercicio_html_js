@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+
+}
+.container {
+    margin: 80px auto;
+    max-width: 640;
+    width: 100%;
+}
+
+form, h1, h2 {
+    margin-top: 40px;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+}
+
+input, button, textarea {
+display: block;
+padding: 8px;
+margin-bottom: 8px;
+width: 100%;
+resize: none;
+}
+
+button {
+    background-color: #2ecc72;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 18px;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+button::hover {
+    background-color: #2ecc72;
+}
+
+.menssagem-sucesso {
+    font-size: 12px;
+    padding: 12px;
+    background-color: #27ae60;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    margin-left: 25%;
+    margin-right: 25%;    
+}
+
+.menssagem-erro {
+    font-size: 12px;
+    padding: 8px;
+    background-color:red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline: red;
+}
+
+
